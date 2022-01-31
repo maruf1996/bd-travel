@@ -1,0 +1,44 @@
+[
+  {
+    "id": 4,
+    "img":"https://i.ibb.co/18zkxm6/kuakata.jpg",
+    "name": "traveling Kuakata",
+    "price":300,
+    "discription": "Kuakata is a town in southern Bangladesh known for its panoramic sea beach. Kuakata beach is a sandy expanse 18 kilometres long and 3 kilometres wide. From the beach one can have an unobstructed view of both sunrise and sunset over the Bay of Bengal."
+  },
+    {
+      "id": 2,
+      "img":"https://i.ibb.co/BzxV36S/coxesbazar.jpg",
+      "name": "traveling cox-bazar",
+      "price":300,
+      "discription": "Cox's Bazar is the prime beach and tourist town in Bangladesh, situated alongside the beach of the Bay of Bengal, beside the Indian ocean, having unbroken ..."
+    },
+    {
+      "id": 3,
+      "img":"https://i.ibb.co/vmCkqZx/sundorbon.jpg",
+      "name": "traveling Sundarban",
+      "price":450,
+      "discription": "Sundarban Tour Package Bangladesh is very popular with foreign tourists and local tourists. Sundarban is a UNESCO world heritage site & the home of Royal Bengal Tigers."
+    },
+    {
+      "id": 4,
+      "img":"https://i.ibb.co/nsXyRMQ/bandarban.jpg",
+      "name": "traveling Bandarban",
+      "price":450,
+      "discription": "Bandarban is a perfect destination for adventure and relaxation. Bandarban Tours offers standard tour packages for the interested tourists throughout the year."
+    },
+    {
+      "id": 5,
+      "img":"https://i.ibb.co/2kj79np/sazek.jpg",
+      "name": "traveling Sazek",
+      "price":500,
+      "discription": "Sajek valley is a very popular valley in Bangladesh. It is situated at Baghaichhari Upazila, Rangamati District. Some people may think that Sajek valley is at Khagrachhari District."
+    },
+    {
+      "id": 6,
+      "img":"https://i.ibb.co/hCGRb2L/syhlet.jpg",
+      "name": "traveling Sreemangal",
+      "price":400,
+      "discription": "Sylhet is a city in eastern Bangladesh, on the Surma River. It’s known for its Sufi shrines, like the ornate tomb and mosque of 14th-century saint Hazrat Shah Jalal,"
+    }
+]
