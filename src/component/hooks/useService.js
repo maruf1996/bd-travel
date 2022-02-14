@@ -4,7 +4,7 @@ const useService = () => {
     const [serviceItem,setServiceItem]=useState([]);
 
     useEffect(()=>{
-        fetch('/FakeData.json')
+        fetch('http://morning-sands-16058.herokuapp.com/services')
         .then(res=>res.json())
         .then(data=>setServiceItem(data))
     },[])

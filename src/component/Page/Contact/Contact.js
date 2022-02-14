@@ -5,7 +5,7 @@ import './Contact.css'
 const Contact = () => {
 
     const handleContact=()=>{
-        alert("Order Successfully")
+        alert("Order Successfully");
     }
     return (
         <div className="contact">

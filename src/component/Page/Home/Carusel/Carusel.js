@@ -1,4 +1,5 @@
 import React from 'react';
+import './carusel.css';
 import { Carousel } from 'react-bootstrap';
 import carusel1 from '../../../../images/carusel/Sundarban.png'
 import carusel2 from '../../../../images/carusel/sreemangal.jpg'
@@ -10,10 +11,9 @@ const Carusel = () => {
             <Carousel>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
+                className="d-block w-100 caruse_img"
                 src={carusel1}
                 alt="First slide"
-                style={{maxHeight:" 600px",height: "100vh"}}
                 />
                 <Carousel.Caption>
                 <h3>BD Traveling</h3>
@@ -22,10 +22,9 @@ const Carusel = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
+                className="d-block w-100 caruse_img"
                 src={carusel2}
                 alt="Second slide"
-                style={{maxHeight:" 600px",height: "100vh"}}
                 />
 
                 <Carousel.Caption>
@@ -35,10 +34,9 @@ const Carusel = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
+                className="d-block w-100 caruse_img"
                 src={carusel3}
                 alt="Third slide"
-                style={{maxHeight:" 600px",height: "100vh"}}
                 />
 
                 <Carousel.Caption>

@@ -11,9 +11,13 @@ const ServicesDetails = () => {
     const [selectedItem, setSelectedItem] = useState([]);
 
     useEffect(() => {
-        const matched = serviceItem.find((item) => item.id == serviceId);
+        const matched = serviceItem.find((item) => item._id == serviceId);
         setSelectedItem(matched);
       }, [serviceItem,serviceId]);
+
+      const handleServiceBooking=()=>{
+          alert('Booking Successfully')
+      }
 
     return (
         <div className='container my-5'>
@@ -22,7 +26,7 @@ const ServicesDetails = () => {
 
                 <div className="col-md-6 mt-2 mb-3">
                 <div className="card p-4">
-                <Form className='mt-3'>
+                <Form className='mt-3' onSubmit={handleServiceBooking}>
 
                     <Form.Group as={Row} className="mb-3" controlId="formHorizontalName">
                         <Col sm={12}>
@@ -38,13 +42,13 @@ const ServicesDetails = () => {
 
                     <Form.Group as={Row} className="mb-3" controlId="formHorizontalAddress">
                         <Col sm={12}>
-                        <Form.Control type="text" placeholder="Address" />
+                        <Form.Control type="text" placeholder="Address" required/>
                         </Col>
                     </Form.Group>
 
                     <Form.Group as={Row} className="mb-3" controlId="formHorizontalPhone">
                         <Col sm={12}>
-                        <Form.Control type="text" placeholder="Phone" />
+                        <Form.Control type="text" placeholder="Phone" required/>
                         </Col>
                     </Form.Group>
 
@@ -62,7 +66,7 @@ const ServicesDetails = () => {
                     <div className="card mx-auto p-4">
                         <img src={selectedItem?.img} alt="" style={{width:"250px", border:"5px solid gray", padding:"8px"}} className='mx-auto'/>
                         <h2 className='text-secondary'>{selectedItem?.name}</h2>
-                        <p className='text-secondary'>{selectedItem?.discription}</p>
+                        <p className='text-secondary'>{selectedItem?.discrip}</p>
                     </div>
                 </div>
             </div>

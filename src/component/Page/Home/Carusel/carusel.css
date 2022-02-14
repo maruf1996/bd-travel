@@ -1,0 +1,16 @@
+.caruse_img {
+    max-height:600px;
+    height:100vh;
+}
+
+@media only screen and (max-width:688px){
+   .caruse_img {
+       height: 60vh;
+   }
+}
+
+@media only screen and (min-width:689px) and (max-width:991px){
+    .caruse_img {
+        height: 80vh;
+    }
+}

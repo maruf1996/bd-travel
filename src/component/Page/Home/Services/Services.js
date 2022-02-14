@@ -6,7 +6,7 @@ const Services = () => {
     const [services,setServices]=useState([]);
 
     useEffect(()=>{
-            fetch('/FakeData.json')
+            fetch('http://morning-sands-16058.herokuapp.com/services')
             .then(res=>res.json())
             .then(data=>setServices(data))
     },[])
@@ -20,7 +20,7 @@ const Services = () => {
                 <div className="service_design">
                     {
                         services.map((service)=><Service
-                            key={service.id}
+                            key={service._id}
                             service={service}
                         ></Service>)
                     }
